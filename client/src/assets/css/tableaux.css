@@ -1,0 +1,48 @@
+/*
+  TABLEAUX
+*/
+table.tableau {
+  background-color: #fffa;
+  border-radius: 10px;
+  padding: 10px;
+  border-collapse:collapse;
+  font-family: 'Caviar Dreams';
+  margin: 20px;
+}
+
+table.tableau td {
+  padding: 10px;
+}
+
+table.tableau td.gauche {
+  text-align: left;
+}
+
+table.tableau td.centre {
+  text-align: center;
+}
+
+table.tableau td.centre, table.tableau th.centre {
+  text-align: center;
+}
+
+table.tableau thead {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+table.tableau th {
+  padding: 5px;
+}
+
+table tr:hover td {
+  background-color: #fffd
+}
+
+table.tableau .pleineLigne {
+  font-style: italic;
+  background-color: #ddd;
+  font-size: 0.9em;
+}

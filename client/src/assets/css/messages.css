@@ -1,0 +1,42 @@
+/*
+  MESSAGES
+*/
+
+.msg {
+  display: inline-block;
+  border-radius: 7px;
+  padding: 3px;
+}
+
+.important {
+  font-weight: bold;
+}
+
+ul.msg {
+  list-style-type: circle !important;
+  padding: 5px 30px !important;
+}
+
+.succes {
+  color: green;
+  border: 1px solid green;
+  background-color: lightgreen;
+}
+
+.info {
+  color: blue;
+  border: 1px solid blue;
+  background-color: lightcyan;
+}
+
+.avertissement {
+  color: orange;
+  border: 1px solid orange;
+  background-color: lightyellow;
+}
+
+.erreur {
+  color: red;
+  border: 1px solid red;
+  background-color: lightgoldenrodyellow;
+}
