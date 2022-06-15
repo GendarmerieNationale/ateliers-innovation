@@ -1,0 +1,51 @@
+{
+  "name": "client_intranet_st",
+  "version": "1.3.1",
+  "private": true,
+  "description": "Client du site intranet du Service de la Transformation",
+  "author": "César LIZUREY",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@splidejs/vue-splide": "^0.6.3",
+    "axios": "^0.21.4",
+    "core-js": "^3.6.5",
+    "mdue": "^0.1.4",
+    "mitt": "^3.0.0",
+    "moment": "^2.29.1",
+    "quill": "^1.3.7",
+    "register-service-worker": "^1.7.1",
+    "socket.io-client": "^3.1.1",
+    "three": "^0.126.1",
+    "uuid": "^3.4.0",
+    "v-calendar": "^3.0.0-alpha.8",
+    "vue": "^3.2.21",
+    "vue-dk-toast": "^2.2.1",
+    "vue-matomo": "^4.1.0",
+    "vue-router": "^4.0.4",
+    "vue-simple-calendar": "^6.0.1",
+    "vue-socket.io": "^3.0.10",
+    "vue-uuid": "^2.0.2",
+    "vue3-popper": "^1.4.2",
+    "vue3-quill": "^0.2.1",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/eslint-parser": "^7.16.5",
+    "@vue/cli-plugin-babel": "^4.5.10",
+    "@vue/cli-plugin-eslint": "^5.0.0-rc.1",
+    "@vue/cli-plugin-pwa": "^4.5.11",
+    "@vue/cli-plugin-router": "^4.5.11",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-airbnb": "^6.0.0",
+    "eslint": "^8.6.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-vue": "^8.2.0"
+  }
+}

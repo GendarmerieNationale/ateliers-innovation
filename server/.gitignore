@@ -1,0 +1,11 @@
+fichiers/
+node_modules/
+config/configLDAP.js
+config/configSMS.js
+config/configOmnibus.js
+config/production.json
+coverage/
+tmp/
+
+.package-lock.json
+package-lock.json

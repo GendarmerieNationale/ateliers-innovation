@@ -1,0 +1,142 @@
+/*
+  FIL D'ARIANE
+*/
+
+.ariane {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Champagne & Limousines';
+  font-size: 1.5em;
+  font-variant: small-caps;
+  padding-left: 10px;
+}
+
+.ariane > * {
+  margin-left: 5px;
+}
+
+.ariane > *:after {
+  content: " > ";
+}
+
+.ariane > *:last-child:after {
+  content: "";
+}
+
+.ariane a {
+  color: #065197;
+}
+
+/*
+  NAVIGATION POUR LES OUTILS
+*/
+
+.outil {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Caviar Dreams';
+}
+
+.outil header {
+  font-family: 'Champagne & Limousines';
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 200;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 85%;
+  height: 10vh;
+}
+
+.outil .contenu {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-height: 80%; */
+  overflow-y: auto;
+}
+
+.outil header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  /* flex-grow: 1; */ /* pour centrer les titres */
+}
+
+.titreOutil {
+  color: #065197;
+}
+
+.outil nav {
+  display: inline-block;
+}
+
+.outil nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.outil nav li {
+  /* display: inline-block; */
+  display: flex;
+  /* width: 25%; */
+  margin: 0 10px;
+  font-size: 0.7em;
+  font-weight: bold;
+  align-items: center;
+}
+
+.outil nav li img {
+  height: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.outil nav li:not(.active):hover a {
+  /* font-weight: bold; */
+}
+
+.outil nav .active {
+  text-decoration: underline;
+}
+
+.outil nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.outil nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.outil nav a:not(.active):hover:after {
+  width: 100%;
+  left: 0;
+}

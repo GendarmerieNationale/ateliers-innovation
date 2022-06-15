@@ -1,0 +1,26 @@
+//-
+  Permet de simuler l'utilisateur qu'on veut.
+  Une fois que les données sont envoyées,
+  les données seront intégrées dans la session
+  côté serveur.
+  Il faudra cependant fermer la fenêtre pour que
+  le client rafraîchisse ses données.
+html
+  head
+    title Simulation de connexion
+  body
+    form(action="/connecter" method="POST")
+      p
+        label(for='nom') Nom:
+        input(type='text' name='nom')#nom
+      p
+        label(for='user') User:
+        input(type='text' name='user')#user
+      p
+        label(for='nigend') NIGEND:
+        input(type='text' name='nigend')#nigend
+      p
+        label(for='unite') Unité:
+        input(type='text' name='unite')#unite
+      p
+        button(type='submit') Envoyer

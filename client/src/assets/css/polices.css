@@ -1,0 +1,55 @@
+/*
+  POLICES
+*/
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: local('Caviar Dreams'), url(~@/assets/fonts/CaviarDreams.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: local('Caviar Dreams Bold'), url(~@/assets/fonts/CaviarDreams_Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: local('Caviar Dreams Italic'), url(~@/assets/fonts/CaviarDreams_Italic.ttf) format('truetype');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: local('Caviar Dreams Bold Italic'), url(~@/assets/fonts/CaviarDreams_BoldItalic.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src: local('Champagne & Limousines'),
+    url(~@/assets/fonts/Champagne&Limousines.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src: local('Champagne & Limousines Bold'),
+    url(~@/assets/fonts/Champagne&Limousines_Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src: local('Champagne & Limousines Italic'),
+    url(~@/assets/fonts/Champagne&Limousines_Italic.ttf) format('truetype');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src: local('Champagne & Limousines Bold Italic'),
+    url(~@/assets/fonts/Champagne&Limousines_BoldItalic.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Amelia Bloomer';
+  src: local('Amelia Bloomer'),
+    url(~@/assets/fonts/Amelia_Bloomer.ttf) format('truetype');
+}

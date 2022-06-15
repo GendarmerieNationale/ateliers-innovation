@@ -1,0 +1,29 @@
+{
+  "app": {
+    "port": 9114,
+    "serveur": "développement",
+    "crypto": "mdrlol132!!",
+    "url": "http://localhost:8080",
+    "api": "http://localhost:9114",
+    "domainecookie": "localhost",
+    "secretsession": "./config/configSession.js",
+    "adminGlobal": "308698"
+  },
+  "pg": {
+    "configFile": "./configDB.js"
+  },
+  "api": {
+    "annuaire": "bdd",
+    "fichiers": "./fichiers",
+    "tmp": "./tmp"
+  },
+  "LDAP": {
+    "configFile": "."
+  },
+  "SMS": {
+    "configFile": "."
+  },
+  "omnibus": {
+    "configFile": "../config/configOmnibus.js"
+  }
+}
